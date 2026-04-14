@@ -1,0 +1,33 @@
+# The URL the site will be built for
+base_url = "https://sivendh.github.io/"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+title = "Sivendh K B"
+description = ""
+
+taxonomies = [
+    { name = "categories" },
+    { name = "tags" },
+]
+
+[markdown]
+
+# Whether to do syntax highlighting
+bottom_footnotes = true
+
+[markdown.highlighting]
+theme = "github-dark"
+
+[extra]
+# Put all your custom variables here
+
+links = [
+    { title = "Mail", href = "mailto:sivendhkb@gmail.com" },
+    { title = "GitHub", href = "https://github.com/sivendh" },
+    { title = "LinkedIn", href = "https://linkedin.com" }
+]
